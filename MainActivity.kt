@@ -41,3 +41,29 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+/*
+   これは
+
+MainActivity クラス:
+
+ComponentActivity クラスを継承しています。
+onCreate メソッドでは、アクティビティが作成されたときに呼び出される処理が定義されています。
+setContent 関数を使用して、アクティビティのコンテンツを構築しています。
+App001Theme:
+
+テーマを適用するためのカスタムテーマ関数です。MaterialTheme を使用しています。
+Surface:
+
+テーマの背景色を使用して、画面全体を覆う Surface を作成しています。
+Greeting 関数:
+
+@Composable アノテーションが付いており、ComposeでUIを構築するための関数です。
+Text コンポーネントを使用して、"Hello Android!" と表示しています。
+GreetingPreview 関数:
+
+プレビュー機能を提供する @Preview アノテーションが付いています。
+Greeting 関数をプレビューしています。
+
+   ブロックコメントです
+*/
